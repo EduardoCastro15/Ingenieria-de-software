@@ -1,0 +1,40 @@
+#aside {
+  width: 25%;
+  height: 100%;
+  float: right;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid black;    
+  position: relative;
+  z-index: 5; 
+}
+#sesion {
+  width: 95%;
+  height: 95%;
+  background-color: #CCD1D1;
+  opacity: .8;
+  border-radius: 1em;
+  margin: auto; 
+  margin-top: 1em;
+  z-index: 6; 
+  text-align: center;      
+}
+.titu{
+  font-weight: bold;
+  font-size: 20px;
+}
+#sesion input, #sesion p{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+}
+#sesion button{  
+  font-size: 18px;  
+}
+#reg{
+  font-size: 25px;
+}
+#reg a:hover{
+  font-size: 25px;
+}
+

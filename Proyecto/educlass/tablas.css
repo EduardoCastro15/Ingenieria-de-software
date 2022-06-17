@@ -1,0 +1,28 @@
+table {
+	border:10px solid;
+	width: 900px;
+	border-color:gray;
+	background-color:#85BACD; 
+	margin:auto;
+	font-family: Arial;
+}
+
+.colsa{
+	font-size: 27px;	
+}
+
+th{
+	font-size: 20px;
+	font-style: italic;	
+	border: 1px solid black;
+}
+td{	
+	text-align: center;
+	font-size: 18px;	
+	border: 2px solid black;
+	white-space:pre-wrap; 
+	word-wrap:break-Word;
+}
+.elc{
+	text-align: justify;
+}

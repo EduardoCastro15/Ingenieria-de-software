@@ -1,0 +1,127 @@
+#section {
+  width: 74%;
+  height: 100%;
+  float: left;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  position: relative;
+}
+.article1 {
+  width: 97%;
+  height: 94%;
+  background-color:#CCD1D1; 
+  opacity: 0.8;
+  border-radius: 1em;
+  margin: auto;  
+  margin-top: 0.8em;  
+}
+.article1 h3{
+  text-align: center;
+  font-size: 25px;
+}
+.article1 p{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.article1 ul, .article1 dl{    
+  margin-left: 190px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.article1 dd{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+#section input, textarea, button, select{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+}
+#section button{  
+  font-size: 18px;  
+}
+#section textarea{
+  resize: none;
+  overflow: scroll auto;
+  border-radius: 1em;
+}
+#enviar  {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.contacto fieldset, .ayuda fieldset{
+  border-radius: 1em;
+  margin: 50px;
+  margin-top: 10px;
+  text-align: center; 
+  resize: none; 
+  height: 300px;    
+}
+.contacto fieldset{
+  border-radius: 1em;
+  margin: 50px;
+  margin-top: 10px;
+  text-align: center; 
+  resize: none; 
+  height: 350px;    
+}
+.reg fieldset{
+  border-radius: 1em;
+  margin: 50px;
+  margin-top: 10px;
+  text-align: center; 
+  resize: none;       
+}
+
+.regdatos fieldset{
+  border-radius: 1em;
+  margin: 15px;
+  margin-top: 10px;
+  text-align: center; 
+  height: 300px;    
+}
+#alum fieldset{
+  border-radius: 1em;
+  margin: 15px;
+  margin-top: 10px;
+  text-align: center; 
+  height: 320px;    
+}
+
+.regdatos label{
+  margin-left: 10px;
+}
+.regdatos input[type="text"], select{
+  width: 145px;
+}
+#telTR, #telAR{
+  width: 145px;
+}
+.ayuda a:hover{
+  font-size: 24px;
+}
+.ayuda a{
+  font-size: 21px;
+}
+
+.regf a{
+  font-size: 30px;
+}
+
+.recpwd fieldset{
+  border-radius: 1em;
+  margin: 70px;
+  margin-top: 30px;
+  text-align: center; 
+  resize: none; 
+  height: 150px;    
+  width: 800px;
+}

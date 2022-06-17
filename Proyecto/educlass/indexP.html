@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>    
+    <title>Principal</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Epo5" />
+    <meta name="keywords" content="html,css,maquetado, maquetacion" />
+    <meta name="copyright" content="© Epo5" />
+    <meta name="description" content="ejercicio de maquetado" />    
+    <link rel="stylesheet" type="text/css" href="indexP.css">
+  </head>
+  <body>
+    <div id="fondoP"></div>
+
+    <div id="contenedor">
+
+      <div id="header"><br/>        
+        <div id="heI"></div>
+        <div id="heD"></div>
+        <div class="heC">
+          <p>INGENIERIA DE SOFTWARE</p>
+        </div>       
+      </div>
+
+      <div class="nav">
+        <ul class="menu">
+          <li>
+            <a href="indexP.html">Principal</a>        
+          </li>
+
+          <li>
+            <a href="acercade.html">Acerca de</a>       
+          </li>
+
+          <li>
+            <a href="">Preguntas frecuentes</a> 
+              <ul class="submenu">
+                <li><a href=""> Subopcion 3_1 </a></li>
+                <li><a href=""> Subopcion 3_2 </a></li>
+                <li><a href=""> Subopcion 3_3 </a></li>
+              </ul>
+          </li>
+
+          <li>
+            <a>Contacto</a> 
+            <ul class="submenu">
+              <li><a href=""> Subopcion 4_1 </a></li>
+              <li><a href=""> Subopcion 4_2 </a></li>
+              <li><a href=""> Subopcion 4_3 </a></li>
+            </ul>
+          </li>
+        
+          <li>
+            <a href="">Ayuda</a> 
+            <ul class="submenu">
+              <li><a href=""> Subopcion 5_1 </a></li>
+              <li><a href=""> Subopcion 5_2 </a></li>
+              <li><a href=""> Subopcion 5_3 </a></li>
+            </ul>
+          </li>    
+        </ul>    
+      </div>
+
+      <div id="contenido">
+
+        <div id="section">
+          <div class="article1"><br>
+            <h3>Titulo Seccion</h3>    
+            <p>
+              Definiciones:<br>
+              El álgebra de Boole se utiliza para la resolución de problemas de tipo
+              lógico-resolutivo, desarrollado en 1947 por George Boole.
+              Actualmente es muy utilizada en electrónica digital (en computadoras), y
+              sobre todo en síntesis de circuitos digitales.
+              El álgebra de Boole son las matemáticas de los sistemas digitales
+            </p>
+          </div> 
+        </div>
+
+        <div id="aside">
+          <div id="sesion"><br>
+            <h2>Inicio de Sesi&oacute;n</h2><br>
+            <form>
+              <label>Tipo Usuario</label><br>
+                <input type="radio" id="tipoA" name="tusu" value="A" required>Administrador
+                <input type="radio" id="tipoP" name="tusu" value="P" >Profesor 
+                <input type="radio" id="tipoE" name="tusu" value="E">Estudiante<br><br>
+              <label>Nombre Usuario</label><br>
+              <input type="text" id="Usuario" name="Usuario" required><br><br>
+              <label>Contraseña</label><br>
+              <input type="password" id="clave" name="clave" required><br>
+              <a href="">Olvidaste Contraseña</a><br><br>
+              <button type="submit" id="ingresar" name="ingresar" value="ingresar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingresar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+            </form>
+            <br>
+            <br>
+            <a href="" id="reg">Reg&iacute;strate</a>
+            <br><br>            
+            <script src="fecha.js"></script>
+            <p id="reloj">              
+            </p>         
+          </div>          
+        </div>
+
+      </div>
+
+      <div id="footer">        
+        <br>
+        <p>Copyright ©2022 | Equipo 3 - 3CM13 | ®Todos los derechos reservados</p>        
+      </div>
+
+    </div>
+  </body>
+</html>

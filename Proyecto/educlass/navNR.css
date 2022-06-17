@@ -1,0 +1,50 @@
+.nav {
+  height: 8%;
+  background-color: gray;  
+  position: relative;
+  z-index: 6; 
+  text-align: center;  
+}
+.nav ul{
+  list-style: none;    
+}
+.menu>li { /*clase con selector descendente*/
+  display: inline-block; 
+}
+.menu>li>a {
+  display: inline-block;
+  padding: 13px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px; 
+}
+.menu li a:hover{
+  color: yellow;
+  transition:all .3s;    
+}
+.menu li a:active{
+  color: blue;
+  transition: all;
+  border: 1px solid black;
+  transition:all .3s; 
+}
+.submenu {
+  position: absolute;
+  background: gray;
+  width: auto;
+  height: auto;
+  display: none;  
+  font-weight: bold;
+  font-style: italic;
+}
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: white;  
+  text-decoration: none;  
+}
+.menu li:hover .submenu{
+  display: block;
+  color: white;
+}

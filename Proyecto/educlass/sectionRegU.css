@@ -1,0 +1,101 @@
+#contenido {
+  height: 72%;   
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+
+#section {
+  height: 100%;
+  margin: auto;  
+  border-radius: 5px;
+  border: 2px solid black;
+  position: relative;
+}
+.article1 {
+  width: 99%;
+  height: 95%;
+  background-color:#CCD1D1; 
+  opacity: 0.8;
+  border-radius: 1em;
+  margin: auto;  
+  margin-top: 0.8em;  
+}
+.article1 h3{
+  text-align: center;
+  font-size: 25px;
+}
+.article1 p{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.article1 ul, .article1 dl{    
+  margin-left: 190px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.article1 dd{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#section label{
+  font-weight: bold;
+  font-size: 20px;
+}
+#section input, textarea, button{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+}
+#enviar{
+  font-weight: bold;
+  font-size: 19px;
+}
+#section button{
+  font-size: 18px;
+}
+
+#camcon fieldset{
+  border-radius: 1em;  
+  margin: 200px;
+  margin-top: 30px;
+  text-align: center;   
+}
+textarea{
+  resize: none;
+  overflow: scroll auto;
+  border-radius: 1em;
+}
+.ayuda a:hover{
+  font-size: 24px;
+}
+.ayuda a{
+  font-size: 21px;
+}
+.ayuda fieldset{
+  border-radius: 1em;  
+  margin: 200px;
+  margin-top: 30px;
+  text-align: center; 
+}
+.duda fieldset{
+  border-radius: 1em;  
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  text-align: center;    
+}
+select{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+  width: 145px;
+}

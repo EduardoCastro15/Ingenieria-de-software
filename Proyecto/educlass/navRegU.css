@@ -1,0 +1,102 @@
+.nav {
+  height: 8%;
+  background-color: gray;  
+  position: relative;
+  z-index: 6; 
+  text-align: justify;  
+}
+.nav ul{
+  list-style: none;    
+}
+.menu>li { /*clase con selector descendente*/
+  display: inline-block; 
+}
+.menu>li>a {
+  display: inline-block;
+  padding: 13px 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px; 
+}
+.menu li a:hover{
+  color: yellow;
+  transition:all .3s;    
+}
+.menu li a:active{
+  color: blue;
+  transition: all;
+  border: 1px solid black;
+  transition:all .3s; 
+}
+.submenu {
+  position: absolute;
+  background: gray;
+  width: auto;
+  height: auto;
+  display: none;  
+  font-weight: bold;
+  font-style: italic;  
+}
+.submenu li a {
+  display: inline-block;  
+  color: white;  
+  text-decoration: none;  
+}
+.menu li:hover .submenu{
+  display: block;    
+}
+.submenu>li>a {
+  padding: .7em 30px;
+  font-size: 18px; 
+}
+
+.submenu2 {
+  position: absolute;
+  background: gray;
+  width: auto;
+  height: auto;
+  display: none;   
+}
+.submenu2 li a {
+  display: inline-flex;
+  padding: 5px 20px;
+  color: white;  
+  text-decoration: none;  
+}
+.submenu li:hover .submenu2{
+  display: inline-flex;
+}
+ 
+
+.submenu3 {
+  position: absolute;
+  background: gray;
+  width: auto;
+  height: auto; 
+  font-weight: normal;
+  font-style: normal; 
+}
+.submenu3 li a {
+  font-size: 15px;
+  color: black;
+}
+
+
+
+.navD{
+  height: 100%;
+  width:  20%; 
+  margin-top: -49px;
+  float: right;
+  background-color: black;    
+  padding-top: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  z-index: 6;
+}
+.navD a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: red;
+}
