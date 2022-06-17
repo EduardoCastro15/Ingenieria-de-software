@@ -1,0 +1,83 @@
+#contenido {
+  height: 1820%;   
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;  
+}
+
+#section {
+  height: 98%;
+  width: 100%;
+  margin: auto;  
+  border-radius: 5px;
+  border: 2px solid black;
+  position: relative;
+}
+.article1 {
+  width: 97%;
+  height: 99.8%;
+  background-color:#CCD1D1; 
+  opacity: 1;
+  border-radius: 1em;
+  margin: auto;  
+  margin-top: 0.8em;  
+}
+.article1 h3{
+  text-align: center;
+  font-size: 25px;
+}
+.article1 p{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.article1 ul, .article1 dl{    
+  margin-left: 190px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.article1 dd{
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#section label{
+  font-weight: bold;
+  font-size: 20px;
+}
+#section input, textarea, button{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+}
+#enviar{
+  font-weight: bold;
+  font-size: 19px;
+}
+#section button{
+  font-size: 18px;
+}
+
+fieldset{
+  border-radius: 1em;  
+  margin: 50px;
+  margin-top: 10px;
+  text-align: center;   
+}
+textarea{
+  resize: none;
+  overflow: scroll auto;
+  border-radius: 1em;
+}
+select{  
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: .5em;
+  width: 145px;
+}
